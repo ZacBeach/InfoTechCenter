@@ -1,10 +1,16 @@
-#WELCOME BANCH
-# Code Name - Hornet
+# Programmer: Zac Beach
+# Date: 2.21.2022
+# Version: 1.1
 
+# Libraries imported here
 from time import sleep #You can use Python’s sleep() function to add a time delay to your code.
 import colorama
 from colorama import Fore, Back, Style
 colorama.init(strip=False, autoreset=True)
+import random
+
+#WELCOME BANCH
+# Code Name - Hornet
 
 print(Fore.GREEN + "Welcome to Hornets InfoTechCenter")
 sleep(1)
@@ -12,8 +18,6 @@ print("\nHornet's Operating System Booting up\n")
 sleep(1)
 
 # GAS BRANCH
-
-import random
 
 # Gas Level Function
 def gasLevelGage():
